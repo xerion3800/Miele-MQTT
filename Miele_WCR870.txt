@@ -1,0 +1,199 @@
+root@raspberrypi:/home/pi/Miele-MQTT-master# php miele-MQTT.php -d
+array(1) {
+  ["000149130299"]=>
+  array(2) {
+    ["ident"]=>
+    array(4) {
+      ["type"]=>
+      array(3) {
+        ["key_localized"]=>
+        string(10) "Devicetype"
+        ["value_raw"]=>
+        int(1)
+        ["value_localized"]=>
+        string(15) "Washing Machine"
+      }
+      ["deviceName"]=>
+      string(0) ""
+      ["deviceIdentLabel"]=>
+      array(5) {
+        ["fabNumber"]=>
+        string(12) "000149130299"
+        ["fabIndex"]=>
+        string(2) "10"
+        ["techType"]=>
+        string(6) "WCR870"
+        ["matNumber"]=>
+        string(8) "10931230"
+        ["swids"]=>
+        array(6) {
+          [0]=>
+          string(4) "4575"
+          [1]=>
+          string(5) "25205"
+          [2]=>
+          string(5) "25268"
+          [3]=>
+          string(4) "4575"
+          [4]=>
+          string(5) "25205"
+          [5]=>
+          string(5) "25268"
+        }
+      }
+      ["xkmIdentLabel"]=>
+      array(2) {
+        ["techType"]=>
+        string(5) "EK037"
+        ["releaseVersion"]=>
+        string(5) "03.58"
+      }
+    }
+    ["state"]=>
+    array(16) {
+      ["status"]=>
+      array(3) {
+        ["value_raw"]=>
+        int(1)
+        ["value_localized"]=>
+        string(3) "Off"
+        ["key_localized"]=>
+        string(5) "State"
+      }
+      ["programType"]=>
+      array(3) {
+        ["value_raw"]=>
+        int(4)
+        ["value_localized"]=>
+        string(9) "Delicates"
+        ["key_localized"]=>
+        string(9) "Programme"
+      }
+      ["programPhase"]=>
+      array(3) {
+        ["value_raw"]=>
+        int(256)
+        ["value_localized"]=>
+        string(0) ""
+        ["key_localized"]=>
+        string(5) "Phase"
+      }
+      ["remainingTime"]=>
+      array(2) {
+        [0]=>
+        int(0)
+        [1]=>
+        int(0)
+      }
+      ["startTime"]=>
+      array(2) {
+        [0]=>
+        int(0)
+        [1]=>
+        int(0)
+      }
+      ["targetTemperature"]=>
+      array(3) {
+        [0]=>
+        array(3) {
+          ["value_raw"]=>
+          int(-32766)
+          ["value_localized"]=>
+          float(-327.66)
+          ["unit"]=>
+          string(7) "Celsius"
+        }
+        [1]=>
+        array(3) {
+          ["value_raw"]=>
+          int(-32768)
+          ["value_localized"]=>
+          NULL
+          ["unit"]=>
+          string(7) "Celsius"
+        }
+        [2]=>
+        array(3) {
+          ["value_raw"]=>
+          int(-32768)
+          ["value_localized"]=>
+          NULL
+          ["unit"]=>
+          string(7) "Celsius"
+        }
+      }
+      ["temperature"]=>
+      array(3) {
+        [0]=>
+        array(3) {
+          ["value_raw"]=>
+          int(-32768)
+          ["value_localized"]=>
+          NULL
+          ["unit"]=>
+          string(7) "Celsius"
+        }
+        [1]=>
+        array(3) {
+          ["value_raw"]=>
+          int(-32768)
+          ["value_localized"]=>
+          NULL
+          ["unit"]=>
+          string(7) "Celsius"
+        }
+        [2]=>
+        array(3) {
+          ["value_raw"]=>
+          int(-32768)
+          ["value_localized"]=>
+          NULL
+          ["unit"]=>
+          string(7) "Celsius"
+        }
+      }
+      ["signalInfo"]=>
+      bool(false)
+      ["signalFailure"]=>
+      bool(false)
+      ["signalDoor"]=>
+      bool(false)
+      ["remoteEnable"]=>
+      array(2) {
+        ["fullRemoteControl"]=>
+        bool(true)
+        ["smartGrid"]=>
+        bool(true)
+      }
+      ["light"]=>
+      int(0)
+      ["elapsedTime"]=>
+      array(2) {
+        [0]=>
+        int(0)
+        [1]=>
+        int(0)
+      }
+      ["spinningSpeed"]=>
+      int(0)
+      ["dryingStep"]=>
+      array(3) {
+        ["value_raw"]=>
+        NULL
+        ["value_localized"]=>
+        string(0) ""
+        ["key_localized"]=>
+        string(12) "Drying level"
+      }
+      ["ventilationStep"]=>
+      array(3) {
+        ["value_raw"]=>
+        NULL
+        ["value_localized"]=>
+        string(0) ""
+        ["key_localized"]=>
+        string(11) "Power Level"
+      }
+    }
+  }
+}
